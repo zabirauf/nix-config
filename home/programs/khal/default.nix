@@ -3,7 +3,7 @@
 {
   accounts.calendar = {
     basePath = "kalendar";
-    accounts.gvolpe = {
+    accounts.zabirauf= {
       primary = true;
       khal = {
         enable = true;
@@ -18,7 +18,7 @@
         type = "filesystem";
         fileExt = ".ics";
       };
-      primaryCollection = "gvolpe"; # workaround
+      primaryCollection = "zabirauf"; # workaround
     };
   };
 
@@ -38,7 +38,7 @@
     };
     settings = {
       default = {
-        default_calendar = "gvolpe";
+        default_calendar = "zabirauf";
         timedelta = "5d";
       };
       view = {

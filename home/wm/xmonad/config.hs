@@ -193,7 +193,7 @@ playerctl c  = "playerctl --player=spotify " <> c
 showKeybindings :: [((KeyMask, KeySym), NamedAction)] -> NamedAction
 showKeybindings xs =
   let
-    filename = "/home/gvolpe/.xmonad/keybindings"
+    filename = "/home/zabirauf/.xmonad/keybindings"
     command f = "alacritty -e dialog --title 'XMonad Key Bindings' --colors --hline \"$(date)\" --textbox " ++ f ++ " 50 100"
   in addName "Show Keybindings" $ do
     b <- liftIO $ doesFileExist filename

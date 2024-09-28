@@ -65,7 +65,7 @@ in
   ## disable networking.wireless from the iso minimal conf as we use networkmanager
   #{ networking.wireless.enable = false; }
   ## vm user and password
-  #{ users.users.gvolpe.initialPassword = "test"; }
+  #{ users.users.zabirauf.initialPassword = "test"; }
   #];
   #};
 }
