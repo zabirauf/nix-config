@@ -23,6 +23,16 @@ in
     ];
   };
 
+  proxmox-vm = nixosSystem {
+    inherit lib pkgs system;
+    specialArgs = { inherit inputs; };
+    modules = [
+      ../system/machine/proxmox-vm
+      ../system/configuration.nix
+      extraSystemConfig
+    ];
+  };
+
   thinkpad = nixosSystem {
     inherit lib pkgs system;
     specialArgs = { inherit inputs; };
