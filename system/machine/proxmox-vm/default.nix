@@ -10,8 +10,8 @@
   boot = {
     kernelPackages = pkgs.linuxPackages_latest;
 
-    systemd-boot.enable = false;
     loader = {
+      systemd-boot.enable = false;
       grub = {
         enable = true;
         enableCryptodisk = true;
