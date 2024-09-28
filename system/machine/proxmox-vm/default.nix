@@ -11,10 +11,12 @@
     kernelPackages = pkgs.linuxPackages_latest;
 
     systemd-boot.enable = false;
-    grub = {
-      enable = true;
-      enableCryptodisk = true;
-      device = "/dev/sda";
+    loader = {
+      grub = {
+        enable = true;
+        enableCryptodisk = true;
+        device = "/dev/sda";
+      };
     };
 
     initrd = {
