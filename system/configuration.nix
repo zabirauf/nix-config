@@ -41,7 +41,7 @@ in
   i18n.defaultLocale = "en_US.UTF-8";
 
   # Set your time zone.
-  time.timeZone = "Europe/Warsaw";
+  time.timeZone = "America/Los_Angeles";
 
   # List packages installed in system profile
   environment.systemPackages = with pkgs; [

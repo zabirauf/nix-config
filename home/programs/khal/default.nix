@@ -28,7 +28,7 @@
       # Format strings are for Python strftime, similarly to strftime(3).
       dateformat = "%x";
       datetimeformat = "%c";
-      default_timezone = "CET";
+      default_timezone = "PST";
       # Monday is 0, Sunday is 6
       firstweekday = 0;
       longdateformat = "%x";
