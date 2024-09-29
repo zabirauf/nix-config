@@ -4,7 +4,7 @@
   imports = [
     # Hardware scan
     ./hardware-configuration.nix
-    ../../wm/xmonad.nix
+    ../../wm/hyprland.nix
   ];
 
   boot = {

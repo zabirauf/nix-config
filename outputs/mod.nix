@@ -9,6 +9,6 @@
       inputs.neovim-flake.homeManagerModules.${system}.default
     ];
 
-    users.zabirauf = import ../home/wm/xmonad/home.nix;
+    users.zabirauf = import ../home/wm/hyprland/home.nix;
   };
 }
